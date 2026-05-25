@@ -84,22 +84,22 @@ If you're interviewing for any role touching LLMs or Transformers, expect at lea
 
 | Category | Topic                  | Name                                              | File                                               |
 | -------- | ---------------------- | ------------------------------------------------- | -------------------------------------------------- |
-| Misc     | \                      | Dataset, Model, Training and Testing with PyTorch | [train_test.ipynb](supplements/train_test.ipynb)   |
-| Module   | Vision: Segmentation   | Box IOU                                           | [box_iou.ipynb](supplements/box_iou.ipynb)         |
-| Module   | Vision                 | Convolution                                       | [convolution.ipynb](supplements/convolution.ipynb) |
-| Model    | Vision: Classification | AlexNet                                           | [alexnet.ipynb](supplements/alexnet.ipynb)         |
-| Model    | Vision: Classification | ResNet                                            | [resnet.ipynb](supplements/resnet.ipynb)           |
+| Misc     | \                      | Dataset, Model, Training and Testing with PyTorch | [train_test.py](supplements/train_test.py)   |
+| Module   | Vision: Segmentation   | Box IOU                                           | [box_iou.py](supplements/box_iou.py)         |
+| Module   | Vision                 | Convolution                                       | [convolution.py](supplements/convolution.py) |
+| Model    | Vision: Classification | AlexNet                                           | [alexnet.py](supplements/alexnet.py)         |
+| Model    | Vision: Classification | ResNet                                            | [resnet.py](supplements/resnet.py)           |
 
 TODO:
 
 - Classification
     - VGG
     - Inception V1: Inception Module
-    - \*ResNet
+    - ~~\*ResNet~~
     - Xception: Depthwise Separable Convolution
     - DenseNet: Dense Block
-    - \*MobileNet V1: Depthwise Separable Convolution
-    - MobileNet V2: Inverted Residual Block
+    - MobileNet V1: Depthwise Separable Convolution
+    - \*MobileNet V2: Inverted Residual Block
     - \*ViT
 - Opject Detection
     - 2 Stage
